@@ -5,7 +5,7 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - "mc-data:/data"
+      - "mcbig:/data"
     environment:
       EULA: "TRUE"
       MAX_MEMORY: 32G
